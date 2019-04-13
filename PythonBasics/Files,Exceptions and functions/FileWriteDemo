@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr  8 14:56:31 2019
+
+@author: user
+"""
+try:
+    
+    with open("MyFile.txt",mode='w',encoding='utf-8') as MyFile:
+        MyFile.write("welcome to Python")
+        MyFile.write("Thanks you")
+        print("File creation sucess")
+except IOError:
+    print("Unable to create")
+    print("server write priotected")
+finally:
+    print("Finally executed") 
