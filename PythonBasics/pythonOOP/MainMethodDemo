@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+import MainMethodDemo1
+MainDemo1.Myfun()
+.........................
+
+import MainMethodDemo1
+MainDemo1.Myfun()
+...........................Give you duplicate and redundant outputs...
+
+"""
+import MainMethodDemo1
+MainDemo1.Myfun()
+
